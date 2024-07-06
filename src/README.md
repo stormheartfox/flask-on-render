@@ -13,6 +13,10 @@ Start the environment using:
 
 `. ./.venv/bin/activate`
 
+Install all the dependencies of the code using:
+
+`pip install -r requirements.txt`
+
 Start the Gunicorn server to see the web pages served locally with the following command:
 
 `
