@@ -28,3 +28,6 @@ This command is also run by Render to host the application.
 To view your local environment go to this address in your browser:
 
 `http://127.0.0.1:8000`
+
+
+To deactivate the virtual environment simple type `deactivate` into the terminal and hit ENTER. 
