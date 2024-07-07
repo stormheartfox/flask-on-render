@@ -7,7 +7,17 @@
     {% endblock %}
 </head>
 <body>
-    <div id="content">{% block content %}This is our initial content{% endblock %}</div>
+    <div id="content" align-content="center">{% block content %}
+    <div class="login-form" display="inline-block">
+        <h2>Login</h2>
+        <label for="username">Username</label><br/>
+        <input type="text" id="username" placeholder="john-smith" /><br/>
+        <label for="password">Password</label><br/>
+        <input type="text" id="password" placeholder="password" /><br/>
+        <input type="button" value="Submit" onClick="/login"/>
+    </div>
+    
+    {% endblock %}</div>
     <div id="footer">
         {% block footer %}
         Created on Github: <a href="https://github.com/stormheartfox/flask-on-render">Source code</a>.
