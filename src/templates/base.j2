@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/static/toms-first-css.css" type="text/css" rel="stylesheet">
+    {% block title %}<title>Tom's First Webpage</title>{% endblock %}
+</head>
+
+<body>
+    {% block login %}
+    {% endblock %}
+    <main>
+        <header>
+            <h1>Tom's Page!</h1>
+            <h2>A Dev? Questionably</h2>
+        </header>
+        <section>
+            {% block content %}
+            {% endblock %}
+        </section>
+    </main>
+</body>
+
+</html>
